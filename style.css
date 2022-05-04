@@ -1,0 +1,408 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    
+     overflow: none;
+    background:  url(img/fundo.jpg) no-repeat;
+    height: 1400px;
+    background-size: cover;
+    overflow-x: none;
+   
+   
+}
+
+ header .container{
+display: flex;
+align-items: center;
+justify-content: flex-end;
+
+}
+
+header .logo {
+    position: relative;
+    top: 20px;
+    text-align: center;
+  
+}
+
+ button {
+     position: relative;
+    background-color:#FFFFFF;
+    border: none;
+    border-radius: 8px;
+    height: 35px;
+    width: 120px;
+    color: #464646;
+    top: 22px;
+    right: 25px;
+  
+
+   
+}
+
+button a {
+    text-decoration: none;
+}
+
+main .container {
+    position: relative;
+    width: 500px;
+    height: 600px;
+    background-color: #464646;
+    left: 450px;
+    top:40px;
+    border-radius: 8px;
+}
+
+.container p {
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 26px;
+    padding: 33px;
+    
+}
+
+label {
+    color: #fff;
+    font-weight: 300;
+    margin-left: 47px;
+    line-height: 35px;
+    font-size: 12px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container select {
+    background-color: #000;
+    display: block;
+    color: #ddd;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 130px;
+    height: 33px;
+    margin-left: 45px;
+
+}
+#opçao-fundo:hover{
+    background-color:#17202A;
+    cursor: pointer;
+}
+#opçao-mes:hover{
+    background-color:#17202A;
+    cursor: pointer;
+}
+
+.dia{
+    background-color: #616A6B;
+    color: #fff;
+}
+.menu-mes {
+    background-color: #616A6B;
+    color: #fff;
+}
+
+.menu-ano {
+    background-color: #616A6B;
+    color: #fff;
+}
+
+.mes {
+  position: relative;
+  left: 130px;
+  top: -33px;
+  color: #ddd;
+
+}
+
+
+.ano {
+    position: relative;
+    left: 260px;
+    top:-67px;
+  
+  }
+
+  .user {
+      position: relative;
+      color: #fff;
+      top: -58px;
+ 
+
+  }
+  .senha {
+      position: relative;
+      top:-55px;
+  }
+
+  .sexo{
+      position: relative;
+      top: -50px;
+  }
+  main input{
+      color: red;
+      position: relative;
+      display: block;
+      background-color: #000;
+      width: 395px;
+      height: 35px;
+      border: none;
+     border-radius: 8px;
+     top: -55px;
+     left: 45px;
+  
+  }
+input::placeholder{
+    padding: 5px;
+    color: #464646;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.menu {
+    position: relative;
+    left: 129px;
+    top: 33px;
+    bottom:0px;
+    border: none;
+}
+.menu-1 input {
+    position: relative;
+    top: -55px;
+    width: 200px;
+   border: 1px solid #fff;
+  
+}
+
+
+.menu-1 .sexo-f{
+    position: relative;
+    left: 246px;
+   width: 200px;
+   top: -90px;
+
+}
+
+ .menu-1 .texto-rodape  {
+    position: relative;
+    top: -90px;
+    left: -87px;
+     font-size: 18px;
+   width: 700px;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 22px;
+}
+
+.texto-rodape a {
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #0000ff;
+
+}
+
+
+main button {
+    position: relative;
+    background: #fff;
+    color:#616A6B;
+    width: 412px;
+    top:-110px;
+    left:50px;
+}
+
+.caixa .container {
+position: relative;
+background-color: #ffffff;
+width: 350px;
+height: 87px;
+text-align: center;
+border-radius: 16px;
+left: 39%;
+top: 80px;
+   
+   
+
+}
+
+#texto {
+    position: relative;
+    top:-110px;
+    font-size: 16px;
+    right: 32px;
+    width: 490.5px;
+    color: #464646;
+
+}
+
+h3 {
+    width: 800px;
+    color:#fff;
+    position: relative;
+    font-size: 28px;
+    top: 130px;
+    left: 38%;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+
+
+button  a {
+  color:#464646;
+}
+
+.menus-top  img {
+    position: relative;
+    top:12em;
+    margin-left: 15px;
+    left: 500px;
+
+}
+
+
+.menus-top .go-player {
+    width: 135px;
+    border-radius: 8px;
+}
+.menus-top .amazon {
+    width: 135px;
+    border-radius: 8px;
+}
+.menus-top .xbox{
+    width: 114px;
+   
+}
+.menus-top .microsoft{
+    width: 110px;
+   
+}
+.logo-principal {
+    position: relative;
+    width: 66px;
+    height: 80px;
+    right: 138px;
+    top:4px
+}
+
+footer .container-links {
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+footer {
+
+    width: 150vw;
+    background-color: #363636;
+    height: 450px;
+   margin-top:200px;
+    
+
+}
+
+footer li {
+    position: relative;
+    color: #616A6B;
+    list-style: none;
+    margin-top:30px;
+    padding-left: 12px;
+    left: -280px;
+    float: left;
+    
+}
+
+footer a {
+    text-decoration: none;
+    color: #616A6B;
+}
+
+
+
+a:hover{
+    color:#fff;
+    cursor: pointer;
+    transition: 3s;
+}
+
+#meu-link {
+    color: #fff;
+}
+
+hr {
+    display:block;
+    border:1px solid #616A6B;
+    margin-top: -350px;
+    width:700px;
+    margin-left:460px;
+
+
+}
+
+.rodape {
+    position: relative;
+    top:18px;
+    font-weight: 200;
+    font-size: 12px;
+    color:#fff;
+    left:460px;
+}
+
+
+
+option:hover {
+    color: #616A6B;
+    background-color: #fff;
+    transition: 3s ease in;
+
+}
+
+.idiomas select {
+    position: relative;
+    width: 200px;
+    height:50px;
+    border-radius: 8px;
+    top: -22px;
+    left:220px;
+    background-color: #17202A;
+    color: #616A6B;
+    cursor: pointer;
+    padding-left: 22px;
+}
+
+ .idiomas select:hover{
+   color: #fff;
+    transition: 2s ease-out;
+}  
+
+#icon{
+    position: relative;
+     color: #fff;
+     top:-22px;
+     left:24px;
+
+
+}
+
+#m {
+   position: relative;
+
+   top:-742px;
+   left: 550px;
+   color: #464646;
+}
+
+#f {
+    position: relative;
+ 
+    top:-742px;
+    left: 790px;
+    color: #BA55D3	;
+
+ }
